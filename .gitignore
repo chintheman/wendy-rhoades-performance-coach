@@ -1,0 +1,20 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local build artifacts (concatenated system prompt, etc.)
+system_prompt.txt
+*.local.md
+
+# Test run outputs (keep the template + example, ignore local runs)
+tests/results-*.md
+!tests/example-results.md
+
+# Secrets — never commit
+.env
+*.key
+*token*
