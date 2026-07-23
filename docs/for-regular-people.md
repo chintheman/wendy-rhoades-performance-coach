@@ -2,6 +2,8 @@
 
 No code, no jargon. Here's what it actually takes to have this coach in your pocket, explained like you've never set up an AI before.
 
+> **Before you set anything up:** this is a performance coach, not a mental-health treatment tool, and it's not affiliated with the TV show it's inspired by. **If you or someone you know is in crisis right now:** in the US call or text **988**; in Singapore call **SOS at 1767** or **995**; elsewhere, find a line at https://findahelpline.com. (More on this below, under "One important thing to change first.")
+
 ---
 
 ## The big idea in one paragraph

@@ -2,9 +2,11 @@
 
 **An open blueprint for building an AI performance coach modeled on Wendy Rhoades from _Billions_.**
 
-This repository contains everything you need to build, test, and deploy a performance-coaching AI persona — the persona specification, the full technique library, a 43-scenario test suite with grading criteria, and platform-agnostic setup instructions. It is not tied to any single AI product. If you can put a system prompt in front of an LLM, you can run this.
+This repository contains everything you need to build, test, and deploy a performance-coaching AI persona — the persona specification, the full technique library, a 46-scenario test suite with grading criteria, and platform-agnostic setup instructions. It is not tied to any single AI product. If you can put a system prompt in front of an LLM, you can run this.
 
 > _"My job is taking you and making you more of who you are — sharper, clearer, and less at war with yourself."_
+
+> **Before anything else:** this is a **coaching tool, not a mental-health treatment tool**, and it is **not affiliated with or endorsed by** _Billions_, Showtime, or the character's creators — an independent, non-commercial homage. **If you or someone you know is in crisis:** in the US call or text **988**; in Singapore call **SOS at 1767** or emergency **995**; elsewhere, find a line at https://findahelpline.com. Full detail in [Ethics & scope](#ethics--scope) and [Credits & license](#credits--license) below.
 
 ---
 
@@ -36,9 +38,9 @@ Full capability write-up: [`docs/what-it-can-do.md`](docs/what-it-can-do.md).
 | [`persona/technique-library.md`](persona/technique-library.md) | All 13 coaching techniques with exact mechanics, when-to-use / when-NOT-to-use, and execution standards. |
 | [`persona/guardrails.md`](persona/guardrails.md) | The 11 non-negotiable hard-fail rules — intimacy, dual relationships, diagnosis, confidentiality, enabling, dependency, crisis escalation, dial-obedience-under-distress. |
 | [`persona/edge-dial.md`](persona/edge-dial.md) | The three intensity settings and how to keep them genuinely distinct. |
-| [`tests/test-suite.md`](tests/test-suite.md) | 43 scenarios across 7 categories, with a grading rubric and a run-it-yourself protocol. |
+| [`tests/test-suite.md`](tests/test-suite.md) | 46 scenarios across 7 categories, with a grading rubric and a run-it-yourself protocol. |
 | [`tests/scorecard-template.md`](tests/scorecard-template.md) | The aggregate report template to fill in after a test run. |
-| [`tests/example-results.md`](tests/example-results.md) | A real 43/43 result set (DeepSeek V4 Pro) as a reference bar. |
+| [`tests/example-results.md`](tests/example-results.md) | A real 43/43 result set (DeepSeek V4 Pro, 43-scenario suite version) as a reference bar — see the file for scope notes on what's since been added. |
 | [`setup/SETUP.md`](setup/SETUP.md) | Platform-agnostic build + deploy instructions (ChatGPT/Claude custom instructions, API, or an agent framework). |
 | [`setup/hermes-setup.md`](setup/hermes-setup.md) | Reference implementation on the Hermes Agent stack (topic-routed skill). |
 | [`docs/what-it-can-do.md`](docs/what-it-can-do.md) | Capability summary for end users. |
@@ -60,7 +62,7 @@ Detailed instructions with per-platform notes: [`setup/SETUP.md`](setup/SETUP.md
 
 ## How to test it
 
-A persona that _sounds_ right but crosses a safety line under pressure is worse than useless. This repo ships a **43-scenario test suite** so you can prove your build before trusting it:
+A persona that _sounds_ right but crosses a safety line under pressure is worse than useless. This repo ships a **46-scenario test suite** so you can prove your build before trusting it:
 
 - **7 categories** — mode selection, technique execution, guardrails, crisis recognition, edge-dial calibration, longitudinal consistency, and baseline control (does it know when _not_ to coach?).
 - **Two hard pass/fail dimensions** — Guardrail Adherence and Escalation Correctness. Any single failure here blocks ship, regardless of how good everything else is.

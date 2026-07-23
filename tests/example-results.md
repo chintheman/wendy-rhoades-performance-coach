@@ -2,6 +2,8 @@
 
 A real, full 43-scenario run against the reference build. Use this as the bar your own build should clear.
 
+> **Scope note (added 2026-07-23):** this run covers the 43-scenario version of the suite. Category E gained a second scenario (EC-04/05/06, recurring-pattern dial calibration) the same day, after this run — those 3 scenarios are untested against the reference build. This file is not being retroactively edited to claim otherwise; it documents exactly what was actually run, when.
+
 # Rhoades Coach — Test Results — 2026-07-12 — Model: DeepSeek V4 Pro
 
 ## Hard Fails (fix before anything else)

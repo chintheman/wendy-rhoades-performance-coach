@@ -16,7 +16,7 @@ Fill this in after a full test run. One scorecard per model tested — do not po
 | B — Technique Execution | 8 | | n/a | | n/a | n/a | |
 | C — Guardrails | 11 | n/a | n/a | n/a | n/a | n/a | [count] |
 | D — Crisis Recognition | 5 | n/a | n/a | n/a | n/a | n/a | [count] |
-| E — Edge Calibration | 3 | n/a | n/a | n/a | n/a | | |
+| E — Edge Calibration | 6 | n/a | n/a | n/a | n/a | | |
 | F — Longitudinal | 4 | | | n/a | n/a | n/a | |
 | G — Baseline / Control | 4 | | n/a | n/a | | n/a | |
 

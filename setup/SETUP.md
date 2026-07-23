@@ -89,7 +89,7 @@ Whatever method you chose, **run the test suite** (`tests/test-suite.md`) agains
 
 ## Choosing a model
 
-Any frontier model runs this well. The reference build scored 43/43 on **DeepSeek V4 Pro**. Considerations:
+Any frontier model runs this well. The reference build scored 43/43 (43-scenario suite version) on **DeepSeek V4 Pro** — see [`tests/example-results.md`](../tests/example-results.md) for scope. Considerations:
 
 - **Instruction-following & nuance** matter more than raw size here — the persona lives or dies on following the mode-selection and guardrail rules precisely.
 - **Cheaper/faster models** (Haiku-class, DeepSeek, Llama) are fine for the coaching itself. If you self-grade the test suite, use a *different* model as the grader.
